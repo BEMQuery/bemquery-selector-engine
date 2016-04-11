@@ -15,7 +15,7 @@
     "minify": "uglifyjs ./dist/bemquery-selector-engine.es5.js -o ./dist/bemquery-selector-engine.es5.js --comments=/^/*!/ --source-map=./dist/bemquery-selector-engine.es5.js.map",
     "build": "rollup -c config/rollup/umd.js && rollup -c config/rollup/es6.js && rollup -c config/rollup/es5.js && npm run minify",
     "build-docs": "jsdoc -c config/jsdoc/default.json ./src",
-    "publish-docs": "npm run build-docs && git checkout gh-pages && npc docs/dist ./ && git add -A && git commit -m \"[ci skip] Updated docs.\" && git push origin gh-pages && git checkout master"
+    "publish-docs": "npm run build-docs && git checkout gh-pages && ncp docs/dist ./ && git add -A && git commit -m \"[ci skip] Updated docs.\" && git push origin gh-pages && git checkout master"
   },
   "repository": {
     "type": "git",
