@@ -21,8 +21,8 @@ const defaultConfig = {
 			return `.${token}`;
 		},
 
-		' > '( token ) {
-			return ` .${token}`;
+		' > '( token, config ) {
+			return ` ${config.rules.default( token )}`;
 		},
 
 		' '( token, config, selector ) {
