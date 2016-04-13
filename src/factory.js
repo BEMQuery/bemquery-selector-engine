@@ -5,7 +5,7 @@ import Converter from './converter/Converter';
 import defaultConverterConfig from './converter/defaultConfig';
 
 /**
- * BEM selectors engine factory.
+ * BEM selector engine factory.
  *
  * @param {Object} [converterConfig=defaultConverterConfig] Configuration object that
  * should be passed to the Converter constructor.
