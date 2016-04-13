@@ -30,7 +30,8 @@
     "engine"
   ],
   "files": [
-    "dist"
+    "dist",
+    "tonic-example.js"
   ],
   "author": "Comandeer",
   "license": "MIT",
@@ -38,6 +39,7 @@
     "url": "https://github.com/BEMQuery/bemquery-selector-engine/issues"
   },
   "homepage": "https://github.com/BEMQuery/bemquery-selector-engine#readme",
+  "tonicExampleFilename": "tonic-example.js",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
     "chai": "^3.5.0",
