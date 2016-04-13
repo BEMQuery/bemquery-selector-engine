@@ -1,6 +1,6 @@
 {
   "name": "bemquery-selector-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BEM selector engine",
   "main": "dist/bemquery-selector-engine.umd.js",
   "jsnext:main": "dist/bemquery-selector-engine.js",
