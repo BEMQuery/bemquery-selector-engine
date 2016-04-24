@@ -19,7 +19,7 @@ exports.tonicEndpoint = function( request, response ) {
 			</p>
 			<script src="${url}"></script>
 			<script>
-			var engine = bemquerySelectorEngine.factory(),
+			var engine = bemquerySelectorEngine.default(),
 				span = engine.find( 'block elem:modifier' ).elements[ 0 ];
 
 				span.style.color = '#f00';
