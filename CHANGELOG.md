@@ -2,12 +2,13 @@
 
 ---
 
-## 1.0.0
+## 0.1.0
 
 * Updated Rollup.js
 * Added `Selector` to the list of module's exports.
 * Make factory a default module's export.
 * Improved tests for module's main file.
+* Added `Converter.prototype.getStateFromClass` method.
 
 ## 0.0.2
 
