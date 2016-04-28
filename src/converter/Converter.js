@@ -68,6 +68,24 @@ class Converter {
 
 		return new Selector( selector, convertedSelector );
 	}
+
+	/**
+	 * Get state from given `[class]` attribute contents.
+	 *
+	 * @param {String} className HTML `[class]` attribute.
+	 * @return {String|null} Fetched state.
+	 */
+	getStateFromClass( className ) {
+		if ( typeof className !== 'string' ) {
+			throw new TypeError( 'Class must be a string.' );
+		}
+
+		const bemConfig = this.config.bem;
+		const regex = new RegExp( `[^${bemConfig.elemSeparator}${bemConfig.modifierSeparator}]+${bemConfig.modifierSeparator}([^${bemConfig.elemSeparator}${bemConfig.modifierSeparator}]+)$` );
+		const match = className.match( regex );
+		
+		return match ? match[ 1 ] : null;
+	}
 }
 
 export default Converter;
