@@ -83,7 +83,7 @@ class Converter {
 		const bemConfig = this.config.bem;
 		const regex = new RegExp( `[^${bemConfig.elemSeparator}${bemConfig.modifierSeparator}]+${bemConfig.modifierSeparator}([^${bemConfig.elemSeparator}${bemConfig.modifierSeparator}]+)$` );
 		const match = className.match( regex );
-		
+
 		return match ? match[ 1 ] : null;
 	}
 }
