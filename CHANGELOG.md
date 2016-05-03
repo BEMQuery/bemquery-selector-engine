@@ -5,6 +5,8 @@
 ## 0.2.0
 
 * Got rid of old codebase and replaced it with the new one, based on [bemquery-package-boilerplate](https://github.com/BEMQuery/bemquery-package-boilerplate).
+* `Converter` extracted to the separate repository, [bemquery-selector-converter](https://github.com/BEMQuery/bemquery-selector-converter).
+* Remove dependence on converter.
 
 ## 0.1.0
 
