@@ -6,7 +6,7 @@ var fs = require( 'fs' ),
 
 exports.tonicEndpoint = function( request, response ) {
     const package = url.parse( request.url, true ).query.package;
-    
+
 	response.end( fs.readFileSync( require.resolve( 'bemquery-' + package ) ) );
 };
 
@@ -19,11 +19,13 @@ exports.tonicEndpoint = function( request, response ) {
 			<title>Tonic Example</title>
 		</head>
 		<body>
-			<p>Example</p>
-			
-            <script src="${endpoint}?package="></script>
-			<script>
+			<p class="block">Example</p>
 
+            <script src="${endpoint}?package=selector-engine"></script>
+			<script>
+				const selectorEngine = new bemquerySelectorEngine();
+
+				selectorEngine.find( '.block' )[ 0 ].style.color = '#f00';
 			</script>
 		</body>
 	</html>`;
