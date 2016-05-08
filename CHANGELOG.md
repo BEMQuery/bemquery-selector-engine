@@ -2,6 +2,10 @@
 
 ---
 
+## 0.2.1
+
+* Updated dependencies.
+
 ## 0.2.0
 
 * Got rid of old codebase and replaced it with the new one, based on [bemquery-package-boilerplate](https://github.com/BEMQuery/bemquery-package-boilerplate).
