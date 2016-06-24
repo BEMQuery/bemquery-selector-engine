@@ -1,6 +1,10 @@
 # bemquery-selector-engine Changelog
 
 ---
+## 0.2.2
+
+* Updated dependencies.
+* Fixed wrong project name in documentation.
 
 ## 0.2.1
 
