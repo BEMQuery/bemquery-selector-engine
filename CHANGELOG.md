@@ -3,6 +3,7 @@
 ---
 ## 0.2.2
 
+* Updated rollup configuration.
 * Updated dependencies.
 * Fixed wrong project name in documentation.
 
