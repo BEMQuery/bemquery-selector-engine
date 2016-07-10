@@ -1,6 +1,12 @@
 # bemquery-selector-engine Changelog
 
 ---
+
+## 0.2.3
+
+* Updated CI configuration.
+* Updated dependencies.
+
 ## 0.2.2
 
 * Updated rollup configuration.
