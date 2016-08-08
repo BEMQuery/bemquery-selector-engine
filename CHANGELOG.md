@@ -2,6 +2,11 @@
 
 ---
 
+## 0.2.4
+
+* Updated boilerplate.
+* Fixed changelog.
+
 ## 0.2.3
 
 * Updated CI configuration.
@@ -39,4 +44,4 @@
 
 ## 0.0.1
 
-First public version. Yay!
+* First public version. Yay!
