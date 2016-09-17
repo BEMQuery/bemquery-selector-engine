@@ -1,7 +1,7 @@
 {
-  "name": "bemquery-package-boilerplate",
-  "description": "BEMQuery",
-  "main": "dist/bemquery-package-boilerplate.umd.js",
+  "name": "bemquery-selector-engine",
+  "description": "Simple wrapper around CSS Selectors API",
+  "main": "dist/bemquery-selector-engine.umd.js",
   "authors": [
       {
         "name": "BEMQuery team",
@@ -13,7 +13,7 @@
     "BEM",
     "BEMQuery"
   ],
-  "homepage": "https://github.com/BEMQuery/bemquery-package-boilerplate",
+  "homepage": "https://github.com/BEMQuery/bemquery-selector-engine",
   "ignore": [
       "**/.*",
       "node_modules",
