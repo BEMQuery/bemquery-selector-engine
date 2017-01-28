@@ -1,0 +1,2 @@
+/*! bemquery-selector-engine v0.2.5 | (c) 2016-2017 BEMQuery team | MIT license (see LICENSE) */(function(a,b){'object'==typeof exports&&'undefined'!=typeof module?module.exports=b():'function'==typeof define&&define.amd?define(b):a.bemquerySelectorEngine=b()})(this,function(){'use strict';return class{find(b,c=document){let d=!1;c!==document&&(!c.id&&(d=!0,c.id=`BEMQueryTMP_${Date.now()}`),b=`#${c.id} ${b}`);const e=Array.from(c.querySelectorAll(b));return d&&c.removeAttribute('id'),e}}});
+//# sourceMappingURL=bemquery-selector-engine.umd.js.map
